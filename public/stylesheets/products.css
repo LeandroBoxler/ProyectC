@@ -1,0 +1,14 @@
+
+.products--section{
+    width: 100;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.products--div{
+    width: 40%;
+}
+.products--img{
+    width: 100%;
+}

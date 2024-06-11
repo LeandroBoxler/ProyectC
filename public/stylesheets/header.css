@@ -1,0 +1,14 @@
+
+.header--ul{    
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+    align-items: center;
+    height: 100px;
+    font-size: 22px;
+}
+.header{
+    padding: 0 10px;
+
+}

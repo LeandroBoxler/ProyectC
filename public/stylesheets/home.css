@@ -1,0 +1,47 @@
+.main--home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*SECCION DE LOS PRODUCTOS MAS COMPRADOS*/
+.section--mostPurchased{
+    width: 10%;
+    display: none;
+}
+/*SECCION DE LOS LOCALES*/
+
+.section--locals{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.div--locals{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border: 1px black solid;
+
+}
+.local--img{
+    width: 40%;
+}
+
+
+.section--advertisements{
+    display: none;
+}
+
+
+
+/*SECCION DE LOS ANUNCIOS*/
+.section--advertisements{
+    width: 15%;
+
+}
+.advertisements--img{
+    width: 100%;
+}
