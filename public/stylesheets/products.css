@@ -1,13 +1,13 @@
 
 .products--section{
-    width: 100;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 .products--div{
-    width: 40%;
+    width: 30%;
 }
 .products--img{
     width: 100%;

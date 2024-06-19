@@ -5,19 +5,7 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <header class="header">
-      <div>
-      <ul class="header--ul">
-        <li><a href="#">Productos</a></li>
-        <li><a href="#">Comercios</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Quienes somos</a></li>
-        <li><a href="#">Asistencia</a></li>
-      </ul>
-    </div>
-    <div>
-    </div>
-    </header>
+<%- include('./partials/header.ejs') %>
     <main class="main--home">
       <section class="section--mostPurchased">
         <div>
@@ -53,6 +41,7 @@
         <img class="advertisements--img" src="/images/apoye-concepto-negocio-local_23-2148592675.avif" alt="">
       </section>
     </main>
+    <%- include('./partials/footer.ejs') %>
 
   </body>
 </html>
